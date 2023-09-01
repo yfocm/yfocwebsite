@@ -1,0 +1,389 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>YFOC CODED</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+<script src="https://kit.fontawesome.com/4d6dcbb26a.js" crossorigin="anonymous"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<style>
+    body {
+    margin:0;
+    padding:0;
+    position:absolute;
+}
+.headingandblockquote
+{
+    margin:0;
+    padding:20px;
+    color:#fff;
+    background-color:#0013a8;
+    text-align:left;
+}
+hr{    
+    size:10px;
+    color:#0013a8;
+    background-color:#0013a8;
+}
+.carousel slide
+{
+    margin:0;
+    padding:0;
+    background-color:red;
+}
+.verse
+{
+    margin:0;
+    padding:10px;
+    color:#fff;
+    text-shadow:2px 2px 6px;
+    background-image:url('https://i.ibb.co/48GX361/gift-4669449-480.jpg');
+    background-repeat:no repeat;
+    background-size:cover;
+}
+a
+{
+    color:#fff;
+}
+.linkstopages
+{
+    margin:0;
+    padding:0;
+}
+.card{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    color:#fff;
+    background-color:#262626;
+}
+.container
+{
+    margin:0;
+    margin-bottom:10px;
+    padding:0;
+}
+.profile
+{
+    margin:30px 10px 10px;
+    padding:70px 10px 10px;
+    background-color:#efefef;
+}
+.profile:hover
+{
+    box-shadow:0.1px 0.1px 30px 6px  #3d5c5c;
+    cursor:pointer;
+}
+.profile img
+{
+    top:2550px;
+    position:absolute;
+    left:calc(50% - 60px);
+    border:10px solid white;
+}
+.profile img:hover
+{
+    box-shadow:0 -6px 30px #ccffff;
+    cursor:pointer;
+}
+.user
+{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+.text-center
+{
+    margin:30px;
+}
+h3
+{
+    color:#fff;
+    text-align:center;
+    }
+form
+{
+    margin:0;
+    padding:0;
+    background-color:#262626;
+}
+input[type="text"]
+{
+    margin:30px 40px 10px;
+    padding:10px 10px 10px;
+}
+input[type="email"]
+{
+    margin:20px 40px 10px;
+    padding:10px 10px 10px;
+}
+button
+{
+    margin:20px 100px 10px;
+    padding:12px 9px 12px 9px;
+    font-size:1.5rem;
+    color:#ccffff;
+    background-color:#262626;
+    border-color:#262626;
+    box-shadow:0 0 0;
+    align-items:center;
+    justify-content:center;
+}
+small
+{
+    text-align:center;
+}
+.social-links
+{
+    margin:0;
+    padding:0;
+    position:inline-block;
+    background-color:#262626;
+    box-shadow:1px 1px 30px #ccffff;
+    z-index:-4;
+}
+.social-links i
+{
+  color:white;
+}
+ul li i
+{
+    margin:0;
+    margin-right:10px;
+    padding:30px 10px 30px;
+}
+</style>
+
+<!-----------google code ajax------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="headingandblockquote"><h1>Contents</h1></div><hr>
+    <!-----------image crousel-------->
+ <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+     <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://i.ibb.co/jH0C0VY/IMG-20200305-172649-076.jpg" alt="IMG-20200305-172649-076" border="0" class="d-block w-100" alt="slide-1">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/FVPpqVR/IMG-20200305-172707-666.jpg" alt="IMG-20200305-172707-666" border="0" class="d-block w-100" alt="silde-2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/N97BpCr/IMG-20200305-172720-071.jpg" alt="IMG-20200305-172720-071" border="0" class="d-block w-100" alt="slide-3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/mG4Q7Jr/IMG-20200305-172732-811.jpg" alt="IMG-20200305-172732-811" border="0" class="d-block w-100" alt="slide-4">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://i.ibb.co/TvFnhhM/IMG-20200305-172750-745.jpg" alt="IMG-20200305-172750-745" border="0" class="d-block w-100" alt="slide-5">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fifth slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div>
+    </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><hr>
+      <div class="headingandblockquote"><h1>Bible Verse Of The Day</h1></div>
+    <div class="verse">
+      <script src="https://www.biblegateway.com/votd/votd.write.callback.js"></script>
+<script src="https://www.biblegateway.com/votd/get/?format=json&version=NIV&callback=BG.votdWriteCallback"></script>
+    <noscript>
+<!-- alternative for no javascript -->
+<iframe framespacing="0" frameborder="no" src="https://www.biblegateway.com/votd/get/?format=html&version=NIV">View Verse of the Day</iframe>
+</noscript>
+</div>
+<a link="red" href="www.yfoc.in" >hey</a>
+<hr>
+<div class="linkstopages">
+  <a href="https://www.yfoc.in/sermons"><div class="card" style="width: 18rem;" align="center">
+<img src="https://i.ibb.co/1qXr1CC/IMG-20200311-191703-952.jpg" alt="IMG-20200311-191703-952" border="0" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-text">Sermons</h2>
+  </div>
+</div></a>
+ <a href="https://www.yfoc.in/sermons/prayers"><div class="card" style="width: 18rem;" align="center">
+ <img src="https://i.ibb.co/4gvKtpC/IMG-20200311-191734-540.jpg" alt="IMG-20200311-191734-540" border="0" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-text">Prayers</h2>
+  </div>
+</div></a>
+<a href="https://www.yfoc.in/testimonies"><div class="card" style="width: 18rem;" align="center">
+  <img src="https://i.ibb.co/ryvCj2v/IMG-20200311-191754-525.jpg" alt="IMG-20200311-191754-525" border="0" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-text">Testimonies</h2>
+  </div>
+</div></a>
+<a href="https://www.yfoc.in/prayer-requests"><div class="card" style="width: 18rem;" align="center">
+  <img src="https://i.ibb.co/y8Bz8cM/IMG-20200311-191812-424.jpg" alt="IMG-20200311-191812-424" border="0" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-text">Prayer Requests</h2>
+  </div>
+</div></a>
+<a href="https://www.yfoc.in/contact"><div class="card" style="width: 18rem;" align="center">
+  <img src="https://i.ibb.co/Y7Bnk9W/IMG-20200311-191834-268.jpg" alt="IMG-20200311-191834-268" border="0"" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-text">Contact</h2>
+  </div>
+</div></a>
+<a href="https://www.yfoc.in/about"><div class="card" style="width: 18rem;" align="center">
+  <img src="https://i.ibb.co/4pvkqs4/IMG-20200311-191851-588.jpg" alt="IMG-20200311-191851-588" border="0" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="card-text">About</h2>
+  </div>
+</div></a>
+</div>
+<!---------Testimony----->
+  <div class="headingandblockquote"><h1>Testimony</h1><blockquote>A Powerful Testimony Givung Glory To The Name Of Jesus For Deliverance By evil spirit</blockquote></div>
+  <div class="container">
+      <div class="profile">
+          <img src="https://i.ibb.co/gyTcbzm/IMG-20200312-123541-968.jpg" class="user" alt="IMG-20200312-123541-968" border="0">
+          <blockquote class="text-center">
+
+
+<h3> Life Saving Testimony </h3>
+
+It Gives Me Immense pleasure and Joy to share with you my life testimony 
+
+how God changed me and Brought up this ministry
+
+"I Evangelist Ezekiel Lobo From India, born in a humble family which fears God, testify about my God who saved my life. I was rejected from the very beginning in my school by all my friends, and no one spoke or valued my presence.My friends in school used to walk off as they would see me coming towards them.I was Hurt, deeply hurt and I asked God why am I so? why did You Create me in this manner? why I don't have any friends? And This went on, I literally used to ask God the same Question everyday.As time passed...<a href="https://www.yfoc.in/our-testimony">read more</a>  </blockquote>
+    <h3>Ezekiel Lobo<br><span>Founder And Evangelist Y.F.O.C.M.</span></h3>
+      </div>
+  </div><hr>
+  <div class="headingandblockquote"><h1>Instagram</h1></div>
+  <div class='embedsocial-instagram' data-ref="92d38e36b0753e26351a072e8a67f0cc3a407ed0"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/in.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialInstagramScript"));</script>
+  <div class="headingandblockquote">
+  <h1>Facebook</h1>
+  </div>
+ <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fyfocm4Christ%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=467599534154581" width="250" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+ 
+ <!---------subscribe system-------->
+   <div class="headingandblockquote"><h1>Subscribe</h1><blockquote>Subscribe For Latest Updates And Notification Of Latest Posts Via E-mail, Subscribe And Be Blessed By The Word Of God</blockquote></div>
+<form id="form" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off"> 
+<input id="nameField" name="entry.1818431876" placeholder="Enter your name" type="text" required> 
+<input id="emailField" name="entry.914233352" placeholder="Enter your email" type="email" required><small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> 
+<button id="send" type="submit" class="common_btn"><strong>Subscribe</strong></button>
+</form>
+
+<h3 id="success-msg" style="text-align: center !important; margin-top:190px !important; display:none; color:#fff"> Your Request has been posted to Google Spreadsheet</h3>
+
+
+
+<!----------script for input-------->
+<script>
+function postToGoogle() {
+                var field1 = $("#nameField").val();
+                var field2 = $("#emailField").val();
+                 
+                if(field1 == ""){
+                    alert('Please Fill Your Name');
+                    document.getElementById("nameField").focus();
+                    return false;
+                }
+                if(field2 == ""){
+                    alert('Please Fill Your Email');
+                    document.getElementById("emailField").focus();
+                    return false;
+                }
+
+
+ $.ajax({
+                    url: "https://docs.google.com/spreadsheets/u/0/d/1IydkqI0mP9RcqF8_Xuf2ml60qer2bCZ5XQsNopr17fo/formResponse?",
+                    data: {"entry.1818431876": field1, "entry.914233352": field2},
+                    type: "POST",
+                    dataType: "xml",
+                    success: function(d)
+                    {
+                    },
+                    error: function(x, y, z)
+                        {
+
+                            $('#success-msg').show();
+                            $('#form').show();
+                            
+                        }
+                });
+                return false;
+            }
+</script>
+<div class="headingandblockquote"><h1>Follow Us On Social Media</h1></div>
+<div class="social-links">
+<ul class="fa-2x"> 
+    <li>
+    <a href="https://www.facebook.com/yfocm4Christ/"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/young_followers_of_christ/"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.yfoc.in/contact"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.yfoc.in/contact"><i class="fas fa-phone"></i></a>
+  <a href="https://www.yfoc.in/contact"><i class="fas fa-envelope-square"></i></a>
+    </li>
+    </ul>
+</div>
+</form>
+<!--2 
+Add Firebase SDK
+Copy and paste these scripts into the bottom of your <body> tag, but before you use any Firebase services:-->
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.11.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAsnOWYpBxmIzx_qj3hJw2H1JyCqS5yjxQ",
+    authDomain: "yfoc-76a59.firebaseapp.com",
+    databaseURL: "https://yfoc-76a59.firebaseio.com",
+    projectId: "yfoc-76a59",
+    storageBucket: "yfoc-76a59.appspot.com",
+    messagingSenderId: "446784030064",
+    appId: "1:446784030064:web:764ec063be2b242113bbb5",
+    measurementId: "G-535BY55PQE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
